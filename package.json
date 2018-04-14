@@ -1,0 +1,18 @@
+{
+  "name": "profFrisby_ComposFuncJS_egghead.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "test": "jest",
+  "repository": "git@github.com:pparonson/profFrisby_ComposFuncJS_egghead.io.git",
+  "author": "pparonson <preston.aronson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.15.0",
+    "jest": "^22.4.3",
+    "ramda-repl": "^4.1.3"
+  }
+}
