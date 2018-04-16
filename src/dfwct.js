@@ -1,5 +1,15 @@
 const R = require("ramda");
 
+<<<<<<< HEAD
+=======
+const box = R.curry(x => [x]);
+
+const fold = R.curry(arr => {
+  let [a] = arr;
+  return a;
+});
+
+>>>>>>> feature/refactor_composition_with_container
 // const nextCharForNumberString = str => {
 // 	const trimmed = str.trim();
 // 	const number = parseInt(trimmed);
@@ -18,12 +28,15 @@ const R = require("ramda");
 //
 // };
 
+<<<<<<< HEAD
 const box = R.curry(x => [x]);
 const fold = R.curry(arr => {
   let [a] = arr;
   return a;
 });
 
+=======
+>>>>>>> feature/refactor_composition_with_container
 const nextCharForNumberString = R.compose(
   fold,
   R.map(s => String.fromCharCode(s)),
